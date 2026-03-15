@@ -18,7 +18,7 @@ function Register() {
 
     try {
 
-      await API.post("/register", form);
+      await API.post("/auth/register", form);
 
       alert("Registration successful");
 
